@@ -14,14 +14,14 @@ const Header = ({ title }) => {
         </header>
     )
 }
-
+ 
 // Header.defaultProps = {
 //     title: 'My Default Prop for title'
 // }
-
+ 
 Header.propTypes = {
     title: PropTypes.string.isRequired,
-}
+} 
 
 
 
